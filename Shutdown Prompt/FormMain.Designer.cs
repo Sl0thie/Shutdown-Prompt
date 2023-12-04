@@ -99,7 +99,6 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Windows Shutdown";
             TopMost = true;
-            Load += FormMain_Load;
             ResumeLayout(false);
         }
 

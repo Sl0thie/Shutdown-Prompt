@@ -11,11 +11,6 @@ namespace Shutdown_Prompt
             InitializeComponent();
         }
 
-        private void FormMain_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void MainTimer_Tick(object sender, EventArgs e)
         {
             if (DateTime.Now > appShutdown)
